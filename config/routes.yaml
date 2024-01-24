@@ -1,0 +1,4 @@
+api_test_event:
+    path:       /api/test/event
+    controller: 'App\Controller\TestController::sendMessage'
+    methods:    GET
